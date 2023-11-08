@@ -1,6 +1,13 @@
-# CGS Test project
-
-> For This project use [MERN stack](https://www.mongodb.com/languages/mern-stack-tutorial)
+# Full stack Todo App
+Technologies stack:
+- PostgreSQL
+- TypeORM
+- Node.js + Express
+- Nodemailer
+- Passport (passport-jwt)
+- Formik and yup
+- React
+- MUI
 
 ## Project commands
 
@@ -105,7 +112,6 @@ Design: [drive.google](https://drive.google.com/file/d/1PcusGdHTmD4qzhKRJnd9pk2j
 
 [Corporate Codestyle](https://github.com/CodeGeneration-2020/code-generation-code-style)  
 [Formik](https://formik.org/docs/overview)  
-[Mongoose](https://mongoosejs.com/)  
 [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)  
 [Passport](http://www.passportjs.org/)  
 [React Query](https://react-query.tanstack.com/)  
