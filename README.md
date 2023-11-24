@@ -1,9 +1,5 @@
 # Full stack Todo App
 
-[LINK TO PROJECT](https://nextjs-todo-five-ruby.vercel.app/todos)
-
-![Image](https://github.com/ivankhrsh/todo-fullstack/assets/66055069/099fddc1-c9de-4ea9-9abd-0daec4533e1f)
-
 Technologies stack:
 - PostgreSQL
 - TypeORM
