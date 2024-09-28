@@ -12,43 +12,9 @@ Technologies stack:
 
 ## Project commands
 
-`yarn start` - to launch your project  
+`yarn start` - to launch project  
 
-## Pre requirements
-
-Watch this video:
-[Hook Setup](https://drive.google.com/file/d/1Ze02SQASwp8KIm39lvL7Gavzq7yZ5HFq/view?usp=sharing)
-
-1. Pull repo.
-2. `git checkout -b <name that you have set in pre-requirements>/main`
-3. `git push origin <name that you have set in pre-requirements>/main`
-4. If you are windows user, make sure that `bash` have been installed if not check [Installation link](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3);
-5. Open Terminal in your project (make sure that you are in main directory with `hooks` folder)
-6. (ONLY FOR WINDOWS USERS) Change first line in `./hooks/commit-msg`, `./hooks/pre-commit` and `./hooks/setup/hooks` from `#!/bin/sh` to `#!/bin/bash`;
-7. Run `nano ./hooks/pre-commit` and change `USER_NAME="user_name"` on third string to `USER_NAME="<YOUR-NAME_LAST_NAME>"` Example: `USER_NAME="my_name"` and save the file.
-8. Run command `yarn configure:hooks` (FOR WINDOWS USERS `yarn configure:hooks:windows`);
-9. Run command `yarn start`
-
-Now you can run project by calling `yarn start`
-
-Avoid Upper case! Do not use `N_Surname` syntax or `Implement-Crud-Todo` syntax
-
-If you keep experiencing something like: **tslint: command not found**
-please do the following:
-
-```
-
-yarn global add tslint typescript
-
-```
-
-link: https://stackoverflow.com/questions/36910592/enabling-eslint-on-typescript-files/64175035#64175035
-
-## Time-frames
-
-Time-frames of the test task is highly important! You have only 2 weeks for the task below, please use this time wisely. Good luck!
-
-## Required features
+## Features
 
 1. **Todo list - CRUD operations on backend**;
 
@@ -98,25 +64,6 @@ Time-frames of the test task is highly important! You have only 2 weeks for the 
 > Use technologies from `Useful links and technologies`. You should create separate pr for each task.
 
 Design: [drive.google](https://drive.google.com/file/d/1PcusGdHTmD4qzhKRJnd9pk2jLAUyLIiX/view?usp=sharing)
-
-## PR convention
-
-1. Each intern will be attached to a branch (`<name that you have set in pre-requirements>/main`);
-2. When you are working on a feature you should create a separate branch from `<name that you have set in pre-requirements>/main` with the following name:
-   `feature/<name that you have set in pre-requirements>/<feature-name>` or `bug/<name that you have set in pre-requirements>/<feature-name>`. Once you are done with a subtask you should create a PR into `<name that you have set in pre-requirements>/main` and ping `Danyyl Kuchkov & Oleksii Samoilenko` for review;
-3. Title of your PR's should be `feat: <name of your feature>` or `bug-fix: <name of your bugfix>`. Description field should contain short info about feature/bug;
-4. PR's are under review ONLY between 9AM - 9:30AM (Kyiv EET time)
-
-> If you will face with some issues with git. Ask `Danyyl Kuchkov` via slack;
-
-## Useful links and technologies
-
-[Corporate Codestyle](https://github.com/CodeGeneration-2020/code-generation-code-style)  
-[Formik](https://formik.org/docs/overview)  
-[Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)  
-[Passport](http://www.passportjs.org/)  
-[React Query](https://react-query.tanstack.com/)  
-[Styled component](https://styled-components.com/)  
 
 ```
 
